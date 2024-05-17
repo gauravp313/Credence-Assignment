@@ -1,0 +1,28 @@
+GET http://localhost:3000/details/
+
+###
+
+POST http://localhost:3000/details/post/
+Content-Type: application/json
+
+{
+    "name":"Finding Dory",
+    "img" :"https://wallpapers.com/images/featured/finding-dory-y2kpjnyq9y33swkc.webp",
+    "summary" : "Finding Dory is a 2016 American animated comedy-drama adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures. It was directed by Andrew Stanton, co-directed by Angus MacLane, produced by Lindsey Collins, and written by Stanton and Victoria Strouse. The second installment to the Finding Nemo franchise, the film is a both a sequel and spin-off following the events of Finding Nemo."
+}
+
+###
+
+
+PUT http://localhost:3000/detail/
+Content-Type: application/json
+
+{
+    "name":"Cars 2",
+    "img": "https://upload.wikimedia.org/wikipedia/en/7/7f/Cars_2_Poster.jpg",
+    "summary": "Cars 2 is a 2011 American animated spy comedy film produced by Pixar Animation Studios for Walt Disney Pictures. It is the sequel to Cars (2006), the second film in the Cars franchise, and the 12th animated film from the studio. The film was directed by John Lasseter (in his final outing as director of a Pixar film to date), co-directed by Brad Lewis, produced by Denise Ream, and written by Ben Queen."
+}
+
+###
+
+DELETE http://localhost:3000/detail/Finding/
